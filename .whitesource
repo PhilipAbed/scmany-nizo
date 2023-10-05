@@ -27,8 +27,7 @@
   },
   "remediateSettings": {
     "enableRenovate": true,
-    "dependencyDashboard": true
-  },
+    "dependencyDashboard": true,
   "hostRules": [
     {
       "matchHost": "https://github.ibm.com",
@@ -40,5 +39,6 @@
   ],
   "customEnvVariables": {
     "GOPRIVATE": "github.ibm.com/IAM"
+  }
   }
 }
