@@ -3,24 +3,5 @@
 	"extends": [
 		"config:base",
 		":disableRateLimiting"
-	],
-	"packageRules": [ 
-		{
-			"matchDatasources": [
-				"npm"
-			],
-			"labels": [
-				"security fix"
-			],
-			"groupName": "npm group"
-		},
-		{
-			"matchDatasources": [
-				"pypi"
-			],
-			"labels": [
-				"security fix"
-			]
-		}
 	]
 }
