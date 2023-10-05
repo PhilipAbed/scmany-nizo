@@ -26,13 +26,7 @@
     "issueType": "DEPENDENCY"
   },
   "remediateSettings": {
-    "workflowRules": {
-      "enabled": true
-    },
     "enableRenovate": true,
-    "extends": [
-      "config:base"
-    ],
     "dependencyDashboard": true
   },
   "hostRules": [
