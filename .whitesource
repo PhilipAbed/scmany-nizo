@@ -37,6 +37,7 @@
       }
     }
   ],
+  "branchPrefix": "renovate",
   "customEnvVariables": {
     "GOPRIVATE": "github.ibm.com/IAM"
   }
