@@ -28,15 +28,6 @@
   "remediateSettings": {
     "enableRenovate": true,
     "dependencyDashboard": true,
-  "hostRules": [
-    {
-      "matchHost": "https://github.ibm.com",
-      "hostType": "go",
-      "encrypted": {
-        "token": "someToken\ada "
-      }
-    }
-  ],
   "branchPrefix": "renovate",
   "customEnvVariables": {
     "GOPRIVATE": "github.ibm.com/IAM"
